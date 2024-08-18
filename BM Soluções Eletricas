@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM Instalações Elétricas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        .services, .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .service, .project {
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #e6f2ff;
+            border-radius: 5px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BM Instalações Elétricas</h1>
+    <p>Soluções em instalações elétricas de qualidade</p>
+</header>
+
+<nav>
+    <a href="#home">Início</a>
+    <a href="#services">Serviços</a>
+    <a href="#about">Sobre Nós</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>Bem-vindo à BM Instalações Elétricas</h2>
+    <p>Oferecemos serviços especializados em instalações elétricas para residências, comércios e indústrias. Nossa equipe é composta por profissionais qualificados, prontos para atender suas necessidades com segurança e eficiência.</p>
+</div>
+
+<div class="container" id="services">
+    <h2>Nossos Serviços</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Instalações Residenciais</h3>
+            <p>Serviços de instalação e manutenção elétrica para sua residência, garantindo segurança e eficiência.</p>
+        </div>
+        <div class="service">
+            <h3>Instalações Comerciais</h3>
+            <p>Soluções elétricas para seu negócio, com foco em qualidade e conformidade com as normas técnicas.</p>
+        </div>
+        <div class="service">
+            <h3>Manutenção Preventiva</h3>
+            <p>Manutenção regular para evitar falhas e garantir o bom funcionamento das instalações elétricas.</p>
+        </div>
+        <div class="service">
+            <h3>Automação Residencial</h3>
+            <p>Transforme sua casa em um ambiente inteligente com nossos serviços de automação residencial.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="about">
+    <h2>Sobre Nós</h2>
+    <p>A BM Instalações Elétricas é uma empresa dedicada a fornecer serviços elétricos de alta qualidade. Com anos de experiência no mercado, nossa missão é garantir a satisfação dos nossos clientes através de um atendimento personalizado e soluções eficientes.</p>
+</div>
+
+<div class="container" id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+        <div class="project">
+            <h3>Projeto Residencial</h3>
+            <p>Instalação elétrica completa em uma residência de alto padrão, incluindo automação e segurança.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto Comercial</h3>
+            <p>Sistema elétrico implementado em uma loja de varejo, com foco em eficiência energética.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contato</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="email" placeholder="Seu Email" required>
+        <textarea placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 BM Instalações Elétricas. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
